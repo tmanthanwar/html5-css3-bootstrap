@@ -1,0 +1,18 @@
+Git Commands.
+
+1) git status - to check status.
+
+2) git add - to add file to the github.
+    git add <file name>
+
+3) git commit -  to commit changes.
+
+    git commit -m 'commit changes'.
+
+4) git push - to push file into git hub.
+
+if you arenew user follow this commands.
+
+git add user.email "tmanthanwar@gmail.com".
+
+git add user.name "Tejashree"
