@@ -1,0 +1,26 @@
+HTML Headings -
+
+Headins - HTML provides predefined tag to represent headings ranging from H1 to H6.
+
+<h1> ------- </h1>
+
+
+HTML Attributes - HTML attibutes are catagorized in 3 types
+
+1) Tag specific type Attributes
+
+- <input type="text">
+
+- here type is the attribute and text is the value.
+
+2) Global Attributes
+
+- <input type="text" id="abc" class="xyz">
+
+- here id, class are global attributes
+
+3) Event Attribute
+
+- <input type="text" onclick="someFunction()">
+
+- here onclick is an event attribute.
