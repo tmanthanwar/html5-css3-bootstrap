@@ -23,4 +23,7 @@ HTML Attributes - HTML attibutes are catagorized in 3 types
 
 - <input type="text" onclick="someFunction()">
 
-- here onclick is an event attribute.
+- here onclick is an event attribute. Every event attribute start with on andcan be use with any element.
+
+References : - HTML Global Attribute - w3school
+  
