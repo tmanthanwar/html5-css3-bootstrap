@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <style>
+            .heading1{
+                background-color: chocolate;
+                color: azure;
+            }
+            
+        </style>
+    
+    </head>
+
+    <body>
+        <h1 class="heading1">This is heading 1</h1>
+        <h1 id="heading2" onclick="textChange()">Click me to get thught of the day.</h1>
+        <h1>This is heading 3</h1>
+
+        <script>
+            function textChange(){
+                document.getElementById("heading2").innerHTML = "Have a nice day"
+            }
+
+        </script>
+    </body>
+</html>

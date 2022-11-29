@@ -1,0 +1,5 @@
+Class - Class is an attribuute which can be use to apply some css to group a set of element.
+
+Id - Id are used to provide some indentification to an element to perform any operation further.
+
+ID must be unique always.
