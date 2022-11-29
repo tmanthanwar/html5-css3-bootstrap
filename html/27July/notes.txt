@@ -1,6 +1,6 @@
 HTML Headings -
 
-Headins - HTML provides predefined tag to represent headings ranging from H1 to H6.
+Headings - HTML provides predefined tag to represent headings ranging from H1 to H6.
 
 <h1> ------- </h1>
 
@@ -23,7 +23,19 @@ HTML Attributes - HTML attibutes are catagorized in 3 types
 
 - <input type="text" onclick="someFunction()">
 
-- here onclick is an event attribute. Every event attribute start with on andcan be use with any element.
+- here onclick is an event attribute. Every event attribute start with "on".
+  and can be use with any element.
 
 References : - HTML Global Attribute - w3school
+
+Types of HTML Elements-
+
+1) Block Elements - Start in new line and occupied maximum width.
+
+ex. <h1>, <p> etc.
+
+2) Inline elements - Start in same line and occupied content level width.
+ex. <input>, <a>, <span>
+Span does not mean anything at its own. 
+but If you want to present some content on same line you can use span.
   
