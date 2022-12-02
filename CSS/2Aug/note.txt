@@ -1,0 +1,25 @@
+CSS Selector : -
+
+Selectors are used to decide to which element css properties are need to apply.
+
+element {
+    property : value;
+}
+
+id selector - 
+
+#id_name{
+    property : value;
+}
+
+class selector -
+
+.class_name{
+    property : value;
+}
+
+Color - 
+
+Color plays important role in web design and web development also.
+
+https://www.toptal.com/designers/ui/adobe-xd-components-tutorial
