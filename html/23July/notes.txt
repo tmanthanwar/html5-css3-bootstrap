@@ -1,7 +1,8 @@
 1) How does html code gets executed in the browser?
  
- - When we give our code to the browser, browser picks that code and put that into the memory 
-   and create a DOM tree.
+ - When we give our code to the browser, browser send that code to server. 
+   Server returns a file in HTML text format with response header having content type html/text 
+   and character code utf-8. 
 
 2) DOM (Document Object Model) 
  - Browser picks every html element and converts into objects and put that object in tree format.
