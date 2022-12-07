@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <i class="fa fa-thumbs-up" id="likes" onclick="changeLike()" style="font-size:36px; color:gray;"></i>
+    
+        <script>
+            function changeLike(){
+                if(document.getElementById("likes").style.color == "gray"){
+                    document.getElementById("likes").style.color = "blue";
+                }
+                else{
+                    document.getElementById("likes").style.color = "gray";
+                }
+            }
+        </script>
+    
+    </body>
+</html>

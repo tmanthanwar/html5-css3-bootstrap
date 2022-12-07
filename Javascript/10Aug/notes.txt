@@ -1,0 +1,15 @@
+Variable Hoisting - 
+
+It is the process where Global  and Local variables are Hoisted meaning variable are 
+declare at the to the file. and based on the position of variable the value will be ressiagned.
+
+var a =10;
+console.log(a); //10
+
+console.log(b); //undefined
+
+var b = 20;
+console.log(a); //10
+
+a = 35;
+console.log(a); // 35

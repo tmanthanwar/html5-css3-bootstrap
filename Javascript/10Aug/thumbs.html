@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    </head>
+
+    <body>
+        <i class="fa fa-thumbs-up" onclick="changeLike()" style="font-size:36px; color:gray;"></i><span id="like">0</span>
+        <i class="fa fa-thumbs-down" onclick="changeDislike()" style="font-size:36px; color: gray;"></i><span id="dislike">0</span>
+
+        <script>
+            var like = 0;
+            var dislike = 0; 
+
+            function changeLike(){
+                like++;
+                document.getElementById("like").innerHTML = like;
+                                
+            }
+
+            function changeDislike(){
+                dislike++;
+                document.getElementById("dislike").innerHTML = dislike;
+                                
+            }
+        </script>
+
+    </body>
+</html>
