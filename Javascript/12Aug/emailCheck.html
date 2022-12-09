@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+
+    <body>
+        Enter Email - <input type="email" id="email" placeholder="Enter Email"><br>
+        <button onclick="changeEmail()">Submit</button>
+
+        <script>
+            function changeEmail(){
+                var email = document.getElementById("email").value;
+                email = email.trim();
+                email = email.toLowerCase();
+                document.getElementById("email").value = email;
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,19 @@
+Datatypes -
+
+Data types represent typeod data stored in a variable. 
+
+var str = "hello" // string
+var num = 123 // Number
+var bolean = true // boolean
+
+String - 
+
+var str = "hello"
+str.concat("world");
+console.log(str); // hello 
+
+Why this- Because strings are immutable. it can not be modified. it is not going to reinitialized the string.
+Whenever you perform any operation it creates a new string. and that why you have to reassigned it.
+
+
+Reference - 1) Javascript MDN 2) Javascript info
