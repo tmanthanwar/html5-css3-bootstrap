@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <input type="text" onchange="changeUser()" id="username" placeholder="enter your name"><span id="user_msg"></span>
+
+        <script>
+            function changeUser(){
+                var username = document.getElementById("username").value;
+                var users = ["sai","ritesh","teju"];
+                if(users.includes(username)){
+                    document.getElementById("user_msg").innerHTML = "User alredy exits";
+                    document.getElementById("user_msg").style.color = "red";
+                }
+                else{
+                    document.getElementById("user_msg").innerHTML = "New User";
+                    document.getElementById("user_msg").style.color = "green";
+                }
+            }
+        </script>
+    </body>
+</html>
