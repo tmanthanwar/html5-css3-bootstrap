@@ -1,0 +1,9 @@
+
+
+
+What is event.preventDefault() - Whenver we click on a button that onclick event is fired. 
+and that perticular event handler (ie.validate fuction) has been executed. 
+The form generally have an action if dont have an action it is empty. means it redirect to th same page.
+It gets refresh. If you use event.preventDefaultt() it prevent from refresh. 
+
+
